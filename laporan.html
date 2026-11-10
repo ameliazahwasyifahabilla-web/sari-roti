@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Laporan Pesanan - Sari Roti</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+<header>
+
+    <div class="navbar">
+
+        <a href="index.html" class="logo-area">
+
+            <img src="logo-sari-roti.png"
+                 alt="Logo Sari Roti">
+
+        </a>
+
+
+        <nav>
+
+            <a href="index.html">
+                Beranda
+            </a>
+
+            <a href="tentang.html">
+                Tentang Kami
+            </a>
+
+            <a href="produk.html">
+                Produk
+            </a>
+
+            <a href="organisasi.html">
+                Organisasi
+            </a>
+
+            <a href="pesanan.html">
+                Pesanan
+            </a>
+
+            <a href="laporan.html"
+               class="active">
+                Laporan
+            </a>
+
+            <a href="kontak.html">
+                Kontak
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main>
+
+<section class="page-hero">
+
+    <div class="container">
+
+        <h1>
+            Laporan Pesanan
+        </h1>
+
+        <p>
+            Data pesanan yang telah disimpan
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="report-section">
+
+    <div class="report-container">
+
+
+        <div class="report-summary">
+
+            <div class="report-card">
+
+                <h3>
+                    Total Pesanan
+                </h3>
+
+                <p id="totalPesanan">
+                    0
+                </p>
+
+            </div>
+
+
+            <div class="report-card">
+
+                <h3>
+                    Total Produk
+                </h3>
+
+                <p id="totalProduk">
+                    0
+                </p>
+
+            </div>
+
+
+            <div class="report-card">
+
+                <h3>
+                    Status
+                </h3>
+
+                <p>
+                    Aktif
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="report-table-box">
+
+            <div class="report-header">
+
+                <h2>
+                    Daftar Pesanan
+                </h2>
+
+                <button
+                    onclick="hapusSemuaPesanan()"
+                    class="delete-btn">
+
+                    Hapus Semua
+
+                </button>
+
+            </div>
+
+
+            <div id="reportContent">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>
+                                No
+                            </th>
+
+                            <th>
+                                Nama
+                            </th>
+
+                            <th>
+                                Email
+                            </th>
+
+                            <th>
+                                Produk
+                            </th>
+
+                            <th>
+                                Jumlah
+                            </th>
+
+                            <th>
+                                Pembayaran
+                            </th>
+
+                            <th>
+                                Aksi
+                            </th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody id="tabelPesanan">
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-column">
+
+            <h3>
+                Sari Roti
+            </h3>
+
+            <p>
+                Website informasi dan pemesanan
+                produk Sari Roti.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>
+                Menu
+            </h3>
+
+            <a href="index.html">
+                Beranda
+            </a>
+
+            <a href="produk.html">
+                Produk
+            </a>
+
+            <a href="pesanan.html">
+                Pesanan
+            </a>
+
+            <a href="kontak.html">
+                Kontak
+            </a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>
+                Informasi
+            </h3>
+
+            <p>
+                PT Nippon Indosari Corpindo Tbk
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Sari Roti. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

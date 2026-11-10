@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Pesanan - Sari Roti</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+<header>
+
+    <div class="navbar">
+
+        <a href="index.html" class="logo-area">
+
+            <img src="logo-sari-roti.png"
+                 alt="Logo Sari Roti">
+
+        </a>
+
+
+        <nav>
+
+            <a href="index.html">
+                Beranda
+            </a>
+
+            <a href="tentang.html">
+                Tentang Kami
+            </a>
+
+            <a href="produk.html">
+                Produk
+            </a>
+
+            <a href="organisasi.html">
+                Organisasi
+            </a>
+
+            <a href="pesanan.html"
+               class="active">
+                Pesanan
+            </a>
+
+            <a href="laporan.html">
+                Laporan
+            </a>
+
+            <a href="kontak.html">
+                Kontak
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main>
+
+<section class="page-hero">
+
+    <div class="container">
+
+        <h1>
+            Form Pemesanan
+        </h1>
+
+        <p>
+            Silakan isi data pemesanan dengan lengkap
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="order-section">
+
+    <div class="order-container">
+
+
+        <div class="order-form">
+
+            <h2>
+                Data Pesanan
+            </h2>
+
+
+            <form id="orderForm">
+
+
+                <div class="form-group">
+
+                    <label for="nama">
+                        Nama Lengkap
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nama"
+                        required
+                        placeholder="Masukkan nama lengkap"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        required
+                        placeholder="Masukkan email"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="telepon">
+                        No. Telepon
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="telepon"
+                        required
+                        placeholder="Contoh: 08123456789"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="produk">
+                        Pilih Produk
+                    </label>
+
+                    <select id="produk" required>
+
+                        <option value="">
+                            -- Pilih Produk --
+                        </option>
+
+                        <option value="Sari Roti Tawar">
+                            Sari Roti Tawar
+                        </option>
+
+                        <option value="Sari Roti Coklat">
+                            Sari Roti Coklat
+                        </option>
+
+                        <option value="Sari Roti Keju">
+                            Sari Roti Keju
+                        </option>
+
+                        <option value="Sari Roti Gandum">
+                            Sari Roti Gandum
+                        </option>
+
+                        <option value="Sari Roti Sandwich">
+                            Sari Roti Sandwich
+                        </option>
+
+                        <option value="Sari Roti Sobek">
+                            Sari Roti Sobek
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="jumlah">
+                        Jumlah
+                    </label>
+
+                    <input
+                        type="number"
+                        id="jumlah"
+                        min="1"
+                        required
+                        value="1"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="alamat">
+                        Alamat Pengiriman
+                    </label>
+
+                    <textarea
+                        id="alamat"
+                        required
+                        placeholder="Masukkan alamat lengkap"
+                    ></textarea>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="metode">
+                        Metode Pembayaran
+                    </label>
+
+                    <select id="metode" required>
+
+                        <option value="">
+                            -- Pilih Pembayaran --
+                        </option>
+
+                        <option value="Transfer Bank">
+                            Transfer Bank
+                        </option>
+
+                        <option value="E-Wallet">
+                            E-Wallet
+                        </option>
+
+                        <option value="COD">
+                            COD
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="btn">
+
+                    Simpan Pesanan
+
+                </button>
+
+            </form>
+
+        </div>
+
+
+        <div class="order-info">
+
+            <h2>
+                Cara Pemesanan
+            </h2>
+
+
+            <div class="order-step">
+
+                <div class="step-number">
+                    1
+                </div>
+
+                <div>
+
+                    <h3>
+                        Isi Data
+                    </h3>
+
+                    <p>
+                        Masukkan data diri dan informasi pesanan.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="order-step">
+
+                <div class="step-number">
+                    2
+                </div>
+
+                <div>
+
+                    <h3>
+                        Pilih Produk
+                    </h3>
+
+                    <p>
+                        Pilih produk Sari Roti yang ingin dipesan.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="order-step">
+
+                <div class="step-number">
+                    3
+                </div>
+
+                <div>
+
+                    <h3>
+                        Pilih Pembayaran
+                    </h3>
+
+                    <p>
+                        Pilih metode pembayaran yang tersedia.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="order-step">
+
+                <div class="step-number">
+                    4
+                </div>
+
+                <div>
+
+                    <h3>
+                        Simpan Pesanan
+                    </h3>
+
+                    <p>
+                        Data pesanan akan masuk ke halaman laporan.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <a href="laporan.html"
+               class="btn btn-secondary">
+
+                Lihat Laporan Pesanan
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-column">
+
+            <h3>
+                Sari Roti
+            </h3>
+
+            <p>
+                Website informasi dan pemesanan
+                produk Sari Roti.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>
+                Menu
+            </h3>
+
+            <a href="index.html">
+                Beranda
+            </a>
+
+            <a href="produk.html">
+                Produk
+            </a>
+
+            <a href="laporan.html">
+                Laporan
+            </a>
+
+            <a href="kontak.html">
+                Kontak
+            </a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>
+                Informasi
+            </h3>
+
+            <p>
+                PT Nippon Indosari Corpindo Tbk
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Sari Roti. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
